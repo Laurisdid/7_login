@@ -1,0 +1,32 @@
+#centerbox{
+    display: inline-block;
+    width: 60%;
+    background: rgb(225, 240, 145);
+    border-radius: 20px;
+    min-width: 860px;
+    min-height: 480px;
+    margin-left: calc(50% - 400px);
+    margin-top: 8%;
+    border-radius: 20px;
+    
+}
+#boxright{
+    float: right;
+    width: 25%;
+    background: rgb(92, 25, 75);
+    border-radius: 5px;
+    min-width: 230px;
+    min-height: 30px;
+    ;
+}
+#boxleft{
+    float: left;
+    width: 50%;
+    background: rgb(58, 143, 72);
+}
+#imgbox{
+    height: 100%;
+    min-width: 360px;
+    border-radius: 5px;
+    width:100%;
+}
