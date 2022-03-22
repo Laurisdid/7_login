@@ -6,9 +6,9 @@ body {
 }
 #centerbox{
     display: inline-block;
-    width: 800px;
+    width: 60%;
     background: rgb(225, 240, 145);
-    margin-left: calc(50% - 400px);
+    margin-left: calc(40% - 400px);
     margin-top: 8%;
 }
 #boxright{
