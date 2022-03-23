@@ -3,31 +3,32 @@ body {
     padding: 0;
     vertical-align: top;
     box-sizing: border-box;
-    height: 200%;
-    margin-left: calc(40% - 400px);
+    margin-left: 8%;
+    margin-right: 3%;
     margin-top: 8%;
     width: 100%;
     min-height: 600px;
-    display: block;
-}
-.centerbox{
-    top: 20%;
-    left: calc(40% - 400px);
     display: inline-block;
-    width: 60%;
-    background: rgb(225, 240, 145);
-    margin-left: calc(40% - 400px);
-    margin-top: 8%;
-    position: absolute;
 }
 .backimg{
-    min-height: 850px;
+    min-height: 900px;
+    max-width: 85%;
     background-image: url(../img/space.jpg);
     filter: blur(8px);
     -webkit-filter: blur(8px);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.centerbox{
+    top: 5%;
+    left: 2%;
+    display: inline-block;
+    width: 50%;
+    background: rgb(225, 240, 145);
+    margin-left: calc(40% - 400px);
+    margin-top: 8%;
+    position: absolute;
 }
 .boxright{
     float: right;
@@ -44,6 +45,8 @@ body {
     background: rgb(58, 143, 72);
     box-sizing: border-box;
     background-image: url(../img/space.jpg);
+    background-position: center;
+    background-size: auto;
     
    
 }
