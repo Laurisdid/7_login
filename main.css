@@ -3,28 +3,51 @@ body {
     padding: 0;
     vertical-align: top;
     box-sizing: border-box;
-}
-#centerbox{
+    margin-left: 8%;
+    margin-right: 3%;
+    margin-top: 8%;
+    width: 100%;
+    min-height: 600px;
     display: inline-block;
-    width: 60%;
+}
+.backimg{
+    min-height: 900px;
+    max-width: 85%;
+    background-image: url(../img/space.jpg);
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.centerbox{
+    top: 5%;
+    left: 2%;
+    display: inline-block;
+    width: 50%;
     background: rgb(225, 240, 145);
     margin-left: calc(40% - 400px);
     margin-top: 8%;
+    position: absolute;
 }
-#boxright{
+.boxright{
     float: right;
+
     width: 60%;
     background: rgb(92, 25, 75);
     padding: 60px;
     box-sizing: border-box;
 }
-#boxleft{
+.boxleft{
     float: left;
     width: 40%;
     padding: 40px;
     background: rgb(58, 143, 72);
     box-sizing: border-box;
     background-image: url(../img/space.jpg);
+    background-position: center;
+    background-size: auto;
+    
    
 }
 h1{
