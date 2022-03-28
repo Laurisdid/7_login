@@ -3,7 +3,7 @@ body{
     position:relative;
 }
 .backimg{
-    min-height: 880px;
+    min-height: 100vh;
     background-image: url(../img/space.jpg);
     filter: blur(8px);
     background-position: center;
