@@ -1,7 +1,9 @@
-
+body{
+    height: 100vh;
+    position:relative;
+}
 .backimg{
-    min-height: 900px;
-    max-width: 85%;
+    min-height: 880px;
     background-image: url(../img/space.jpg);
     filter: blur(8px);
     background-position: center;
@@ -9,13 +11,11 @@
     background-size: cover;
 }
 .centerbox{
-    top: 5%;
-    left: 1px;
+    top: 20%;
+    left: 20%;
     display: inline-block;
     position: absolute;
     width: 800px;
-    margin-top: 100px;
-    margin-left: calc(50% - 600px);
 }
 .boxleft{
     width: 40%;
