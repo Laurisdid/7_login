@@ -1,0 +1,68 @@
+
+.backimg{
+    min-height: 900px;
+    max-width: 85%;
+    background-image: url(../img/space.jpg);
+    filter: blur(8px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.centerbox{
+    top: 5%;
+    left: 1px;
+    display: inline-block;
+    position: absolute;
+    width: 800px;
+    margin-top: 100px;
+    margin-left: calc(50% - 600px);
+}
+.boxleft{
+    width: 40%;
+    padding: 40px;
+    background-color: #008fae;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    position: absolute;
+    background-image: url(../img/space.jpg);  
+    bottom: 30px;
+    top: 30px;
+    left: 0;
+}
+.boxright{
+    float: right;
+
+    width: 60%;
+    background-color: rgb(255, 255, 250);
+    padding: 60px;
+    position: relative;
+}
+.main-title {
+    width: 100%;
+    margin-bottom: 250px;
+    font-size: 40px;
+    font-weight: normal;
+}
+.bottom-links {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    right: 40px;
+}
+.bottom-links > .link {
+    color: #fff;
+}
+
+.close{
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 54px;
+    position: absolute;
+    top:5px;
+    right:5px;
+    cursor: pointer;
+}
